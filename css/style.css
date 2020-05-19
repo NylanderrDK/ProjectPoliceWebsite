@@ -1,0 +1,160 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    /*background-image: linear-gradient(to right, rgb(20, 20, 100), rgb(100, 20, 20));*/
+    background-color: white;
+}
+
+nav {
+    background-image: linear-gradient(to right, rgb(20, 20, 100), rgb(100, 20, 20));
+}
+
+.nav-wrapper a {
+    font-size: 20px;
+}
+
+.brand-logo {
+    font-size: 25px !important;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+#steam {
+    text-decoration: none;
+    color: white;
+    text-decoration: underline;
+}
+#aboutcard {
+    height: 264px;
+    margin-top: 25px;
+}
+
+#faqcard {
+    margin-top: 25px;
+}
+
+.card {
+    transition: .2s ease-in-out;
+}
+
+.card:hover {
+    transition: .2s ease-in-out;
+    transform: scale(1.02,1.02);
+}
+
+.centerbtn {
+    text-align: center;
+    margin: auto;
+    display: block;
+    max-width: 150px;
+}
+
+.centerbtnsubmit {
+    text-align: center;
+    margin: auto;
+    display: block;
+    max-width: 200px;
+}
+
+@keyframes load {
+    from {
+        width: 0%;
+    }
+}
+
+@-webkit-keyframes load {
+    from {
+        width: 0%;
+    }
+}
+
+@-moz-keyframes load {
+    from {
+        width: 0%;
+    }
+}
+
+@-o-keyframes load {
+    from {
+        width: 0%;
+    }
+}
+
+.bar {
+    background-color: grey;
+    padding: 2px;
+    border-color: black;
+    border-radius: 15px;
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #FFF;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+    display: flex;
+}
+
+.bar::before {
+    content: attr(data-skill);
+    background-image: linear-gradient(to right, rgb(20, 20, 100), rgb(100, 20, 20));
+    display: inline-block;
+    padding: 5px 0 5px 5px;
+    border-radius: inherit;
+    animation: load 2s 0s;
+    -webkit-animation: load 2s 0s;
+    -moz-animation: load 2s 0s;
+    -o-animation: load 2s 0s;
+}
+
+.bar.map::before {
+    width: calc(7% - 10px);
+    height: 70px;
+}
+
+.bar.buildings::before {
+    width: calc(0% - 10px);
+}
+
+.bar.policeveh::before {
+    width: calc(0% - 10px);
+}
+
+.bar.civveh::before {
+    width: calc(0% - 10px);
+}
+
+.bar.soundfx::before {
+    width: calc(0% - 10px);
+}
+
+.bar.songs::before {
+    width: calc(28% - 10px);
+}
+
+.bar.mpnetworking::before {
+    width: calc(20% - 10px);
+}
+
+.bar.ui::before {
+    width: calc(20% - 10px);
+}
+
+.bar.inventory::before {
+    width: calc(52% - 10px);
+}
+
+.bar.els::before {
+    width: calc(0% - 10px);
+}
+
+.bar.artwork::before {
+    width: calc(3% - 10px);
+}

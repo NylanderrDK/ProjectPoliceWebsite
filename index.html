@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--Import Google Icon Font-->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <!-- Import Roboto Font -->
+        <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+        <!--Import materialize.css-->
+        <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+        <!-- Import style.css -->
+        <link type="text/css" rel="stylesheet" href="css/style.css">
+        <!-- Import jQuery -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <!-- Import Favicon -->
+        <link rel="icon" href="lib/img/Logo.png" type="image/png" sizes="16x16">
+
+        <!-- Change title of the website -->
+        <title>Project Police Web</title>
+        <!-- Change charset of the website -->
+        <meta charset="utf-8">
+
+        <!--Let browser know website is optimized for mobile-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head>
+
+    <body>
+        <div class="navbar-fixed">
+            <nav>
+                <div class="container">
+                    <div class="nav-wrapper">
+                        <a href="index.html" class="brand-logo">Project Police</a>
+                        <ul class="right hide-on-med-and-down">
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#shop">Shop</a></li>
+                            <li><a href="#roadmap">Roadmap</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+        <!-- Slider -->
+        <section class="slider">
+            <ul class="slides">
+                <li>
+                    <img src="lib/img/slideplaceholder.png">
+                    <div class="caption center-align">
+                        <h2>Title Slide 1</h2>
+                        <h5 class="light grey-text text-lighten-3 hide-on-small-only">Text to slide 1</h5>
+                    </div>
+                </li>
+                <li>
+                    <img src="lib/img/slideplaceholder.png">
+                    <div class="caption center-align">
+                        <h2>Title Slide 2</h2>
+                        <h5 class="light grey-text text-lighten-3 hide-on-small-only">Text to slide 2</h5>
+                    </div>
+                </li>
+            </ul>
+        </section>
+
+        <!-- About -->
+        <section id="about" class="section-about scrollspy">
+            <div class="container">
+                <h1 class="center">About Project Police</h1>
+                    <div class="row">
+                        <div class="col s12 m6">
+                            <div class="card grey darken-3 white-text" id="aboutcard">
+                                <div class="card-content">
+                                    <span class="card-title">What is Project Police?</span>
+                                    <p><span class="bold">Project Police</span> is a multiplayer, police simulation game. With many features such as running backgrounds on ai, checking the inventory of a vehicle, arresting somebody, Project Police is a game with many things to explore.
+                                            The game puts you in as a police officer in the world, and your <span class="italic">"objective"</span> is to patrol the streets, and keep the crime to a low. However, if you don't do your job properly you do not get punished in the game.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col s12 m6">
+                            <div class="card grey darken-3 white-text" id="faqcard">
+                                <div class="card-content">
+                                    <span class="card-title">Frequently Asked Questions</span>
+                                    <p><span class="bold">Q: When is the release date?</span> A: We currently have no expected release date - but we promise you that we will <span class="underline">keep</span> working on it!</p><br>
+                                    <p><span class="bold">Q: What will the price be?</span> A: We expect that the game will be released at <a href="https://store.steampowered.com/app/963780/Project_Police/" id="steam">Steam</a> for $13.99.</p><br>
+                                    <p><span class="bold">Q: But what if i don't want to be a cop?</span> A: Well there is a spot for you! We do intend on making a way for anyone to play as a civilian.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col s12 m6">
+                            <div class="card grey darken-3 white-text">
+                                <div class="card-content">
+                                    <span class="card-title">Useful Links</span>
+                                    <ul>
+                                        <li class="collection-item">Visit our Steam page <a href="https://store.steampowered.com/app/963780/Project_Police/">here</a></li>
+                                        <li class="collection-item">Follow the project on Discord <a href="https://discord.gg/gJ6Up3F">here</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col s12 m6">
+                            <div class="card grey darken-3 white-text">
+                                <div class="card-content">
+                                    <span class="card-title">Who are the developers?</span>
+                                    <p>The developers behind <span class="bold">Project Police</span> is from Totalhax.</p><br>
+                                    <p>You can read more about them and Totalhax at their <a href="https://www.totalhax.com">website</a>.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </section>
+
+        <!-- Shop -->
+        <section id="shop" class="section-shop scrollspy">
+            <div class="container">
+                <h1 class="center">Shop</h1>
+                <h5 class="center">If you want to back the project, please tap the button below.</h5><br>
+                <a class="waves-effect waves-light btn-large centerbtn grey darken-3" href="https://www.totalhax.com">CLICK ME</a>
+            </div>
+        </section>
+
+        <!-- Roadmap -->
+        <section id="roadmap" class="section-roadmap scrollspy">
+            <div class="container">
+                <h1 class="center">Roadmap</h1>
+                <!-- Progress bars -->
+                <div class="bar map" data-skill="Map Section 1"></div>
+                <div class="bar buildings" data-skill="Buildings (15)"></div>
+                <div class="bar policeveh" data-skill="Police Vehicle Models (3)"></div>
+                <div class="bar civveh" data-skill="Civilian Vehicle Models (4)"></div>
+                <div class="bar soundfx" data-skill="Sound FX"></div>
+                <div class="bar songs" data-skill="Songs (7)"></div>
+                <div class="bar mpnetworking" data-skill="Multiplayer / Networking"></div>
+                <div class="bar ui" data-skill="User Interface"></div>
+                <div class="bar inventory" data-skill="Inventory System"></div>
+                <div class="bar els" data-skill="ELS (Emergency Lighting System"></div>
+                <div class="bar artwork" data-skill="Artwork"></div>
+            </div>
+        </section>
+
+        <!-- Contact -->
+        <section id="contact" class="section-contact scrollspy">
+            <div class="container">
+                <h1 class="center">Contact Us</h1><br>
+                <div class="row">
+                    <form class="col s12">
+                        <div class="row">
+                            <div class="input-field col s4">
+                                <i class="material-icons prefix">account_circle</i>
+                                <input id="name" type="text" class="validate" required>
+                                <label for="name">Name</label>
+                            </div>
+                            <div class="input-field col s4">
+                                <i class="material-icons prefix">mail</i>
+                                <input id="email" type="email" class="validate" required>
+                                <label for="email">Email</label>
+                            </div>
+                            <div class="input-field col s4">
+                                <i class="material-icons prefix">phone</i>
+                                <input id="phone" type="text" class="validate">
+                                <label for="phone">Phone (Optional)</label>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col s12">
+                                <div class="row">
+                                    <div class="input-field col s12">
+                                        <i class="material-icons prefix">mail</i>
+                                        <textarea id="message" class="materialize-textarea" required></textarea>
+                                        <label for="message">Your Message</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="btn waves-effect waves-light centerbtnsubmit grey darken-3" type="submit" name="sendmessage">Send Message
+                            <i class="material-icons right">send</i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="section center">
+            <p class="flow-text">Project Police &copy; 2019</p>
+        </footer>
+
+        <!--JavaScript at end of body for optimized loading-->
+        <script type="text/javascript" src="js/materialize.min.js"></script>
+        <!-- Custom scripts -->
+        <script>
+            // Init scrollspy
+            $(document).ready(function(){
+                $('.scrollspy').scrollSpy();
+            });
+
+            // Init slider
+            $('.slider').slider({
+                indicators: false,
+                height: 500,
+                transition: 500,
+                interval: 6000
+            });
+        </script>
+    </body>
+</html>
